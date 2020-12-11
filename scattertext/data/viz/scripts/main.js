@@ -975,6 +975,8 @@ buildViz = function (d3) {
                 .append('div')
                 .attr("class", "snippet_header")
                 .style("padding-top", "100px")
+                .style("color", "#7fc6f0")
+                .style("font-family", "Segoe UI")
                 .html(termHtml);
             if ('metalists' in fullData && info.term in fullData.metalists && topic_model_preview_size > 0) {
                 d3.select('#' + divName + '-' + 'termstats')
